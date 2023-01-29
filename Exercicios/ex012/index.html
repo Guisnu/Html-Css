@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserindo Vídeos</title>
+</head>
+
+<body>
+    <h1>inserindo vídeos hospedados localmente</h1>
+        <p>Este vídeo está hospedado no meu própio servidor.</p>
+    <!-- <video src="midia/Meu-video.ogv.ogv" width="500px" controls autoplay loop></video> -->
+    <video width="560px" poster="imagens/thumb limoes-1280.jpg" controls autoplay loop>
+        <source src="midia/Meu-Video.Mp4.mp4" type="video/mp4">
+        <source src="midia/Meu-video.ogv.ogv" type="video/ogv">             <!--própia hospedagem-->
+        <source src="midia/Meu-Video.WebM.webm" type="video/webm">
+        <p>Seu navegador não é compatível com a reprodução do vídeo
+            <a href="midia/Meu-Video.Mp4.mp4" download="limão.mp4" type="video/mp4"></a>
+        </p>
+    </video>
+
+    <h1>Inserindo vídeos do youtube</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         <!--Hospedagem do vimeo e do youtube, custa menos para seu cliente-->
+    <h1>Inserindo vídeos do vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/785947192?h=bc4c652a0c&loop=1&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        
+</body>
+
+</html>
